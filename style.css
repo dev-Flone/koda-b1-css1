@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    background-color: white;
+}
+
+nav {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input {
+    min-width: 10rem;
+    max-width: 30rem;
+}
+
+.account {
+    display: flex;
+    gap: .5rem;
+    font-weight: 500;
+}
+
+.login, .register {
+    display: block;
+    padding: .3rem .5rem;
+    border-radius: 5px;
+    color: white;
+}
+
+.login {
+    background-color: #008000;
+}
+
+.register {
+    background-color: darkgrey;
+}
+
+.garis  {
+    position: relative;
+    top: .1rem;
+    background-color: darkgrey;
+    height: 2px;
+}
+
+/* Main Content */
+.container {
+    height: 100vh;
+    position: relative;
+}
+
+.content {
+    font-size: 0;
+    position: relative;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    height: inherit;
+    width: 60%;
+}
+
+.side-content {
+    position: absolute;
+    width: 40%;
+    height: inherit;
+    right: 0;
+}
+
+/* Content */
+.card {
+    position: absolute;
+    width: 45%;
+    border: 1px solid black;
+    height: 250px;
+    margin: 10px;
+    border-radius: .5rem;
+}
+
+.kiri {
+    left: 0;
+}
+
+.kanan {
+    right: 0;
+}
+
+.tengah {
+    top: 260px
+}
+
+.bawah {
+    top: 520px
+}
+
+/* Side-Content */
+.side-content p, .whatsapp {
+    padding: .5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact {
+    position: relative;
+}
+
+.contact .whatsapp {
+    right: 0;
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 50px;
+}
