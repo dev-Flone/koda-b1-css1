@@ -20,6 +20,7 @@ nav {
 input {
     min-width: 10rem;
     max-width: 30rem;
+    padding: 3px;
 }
 
 .account {
