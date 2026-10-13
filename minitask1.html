@@ -6,10 +6,12 @@
     <title>CSS Layouting</title>
 
     <style>
-      html,
-      body {
+      * {
         margin: 0;
         padding: 0;
+      }
+      body {
+        height: 100vh;
       }
       h1 {
         text-align: center;
@@ -26,11 +28,13 @@
         background-color: white;
       }
       .papan {
+        top: 25%;
         font-size: 0;
         width: fit-content;
         border: 1px solid black;
         margin: auto;
         box-sizing: content-box;
+        position: relative;
       }
     </style>
   </head>
