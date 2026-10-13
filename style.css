@@ -15,6 +15,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 3px solid darkgrey;
 }
 
 input {
@@ -42,13 +43,6 @@ input {
 
 .register {
     background-color: darkgrey;
-}
-
-.garis  {
-    position: relative;
-    top: .1rem;
-    background-color: darkgrey;
-    height: 2px;
 }
 
 /* Main Content */
